@@ -1,5 +1,15 @@
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
+
+## my notes
+Everything below this section is from the original repo
+Don't work on the root index, work off of the dist directory, and update s3 with the contents from that directory.
+
+## todo:
+- replace gulp with webpack
+- add react so that the index page is broken up a little more
+- refine the styles and javascript (see if you can get rid of the dependancies)
+
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Preview

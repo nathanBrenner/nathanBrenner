@@ -199,6 +199,10 @@ a:focus, a:hover {
   height: 300px;
 }
 
+.profile-img {
+  max-width: 243px;
+}
+
 @media (min-width: 992px) {
   .content-section {
     padding-top: 200px;

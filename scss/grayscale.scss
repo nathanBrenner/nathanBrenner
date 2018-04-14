@@ -137,7 +137,19 @@ a {
   text-align: center;
 
   color: white;
-  background: url('../img/intro-bg.jpg') no-repeat bottom center scroll;
+  // background: url('../img/intro-bg.jpg') no-repeat bottom center scroll;
+  background: url('../img/first-snow.png') no-repeat bottom center scroll;
+  filter: grayscale(100%);
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: .6; 
+  }
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -199,7 +211,18 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
+  background: url('../img/may-showers.png') no-repeat center center scroll;
+  filter: grayscale(50%);
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   background-color: linear-gradient(white, black);
+  //   opacity: .8; 
+  // }
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

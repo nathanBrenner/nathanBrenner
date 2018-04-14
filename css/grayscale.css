@@ -43,12 +43,12 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #fff;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #cccccc;
 }
 
 #mainNav {
@@ -124,12 +124,24 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/first-snow.png") no-repeat bottom center scroll;
+  filter: grayscale(100%);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.masthead:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: .6;
 }
 
 .masthead .intro-body {
@@ -186,7 +198,8 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/may-showers.png") no-repeat center center scroll;
+  filter: grayscale(50%);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -224,16 +237,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #fff;
+  border: 1px solid #fff;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid #fff;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #fff;
 }
 
 ul.banner-social-buttons {

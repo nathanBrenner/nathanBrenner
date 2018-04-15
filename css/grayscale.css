@@ -196,10 +196,25 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
+.text-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .download-section {
   color: white;
   background: url("../img/may-showers.png") no-repeat center center scroll;
   filter: grayscale(50%);
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.resume-section {
+  color: white;
+  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -214,12 +229,16 @@ a:focus, a:hover {
 
 .profile-img {
   max-width: 243px;
+  margin: 1rem;
 }
 
 @media (min-width: 992px) {
   .content-section {
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+  .about-section {
+    padding: 0;
   }
   #map {
     height: 350px;

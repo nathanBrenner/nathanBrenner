@@ -317,3 +317,9 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+@media (min-width: 768px) {
+  .portfolio-site {
+    max-height: 300px;
+  }
+}
